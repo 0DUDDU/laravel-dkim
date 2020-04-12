@@ -1,6 +1,8 @@
 # Laravel DKIM
 Package, that allows sign emails with DKIM.
 
+# DOES NOT CURRENTLY WORK WITH LARAVEL 7
+
 ## Installation
 1. Install via Composer:
 ```
