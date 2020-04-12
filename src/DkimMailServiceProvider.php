@@ -13,7 +13,7 @@ class DkimMailServiceProvider extends MailServiceProvider
      */
     public function register()
     {
-        parent::registerSwiftMailer();
+        app('mailer')->getSwiftMailer()->registerSwiftMailer();
 
         $this->app->singleton('mailer', function ($app) {
             // Once we have create the mailer instance, we will set a container instance
