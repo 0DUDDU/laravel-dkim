@@ -1,5 +1,5 @@
 {
-    "name": "fossil01/laravel-dkim",
+    "name": "skripal/laravel-dkim",
     "description": "Laravel package for signing outgoing messages with DKIM.",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^7.1",
-        "laravel/framework": "^5.2|^6.0|^7.0"
+        "laravel/framework": "^7.*"
     },
     "autoload": {
         "psr-4": {
