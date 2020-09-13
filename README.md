@@ -6,7 +6,7 @@ Package, that allows sign emails with DKIM.
 ## Installation
 1. Install via Composer:
 ```
-composer require skripal/laravel-dkim
+composer require dudu54/laravel-dkim
 ```
 2. In `config/app.php` comment line with original service provider:
 ```
